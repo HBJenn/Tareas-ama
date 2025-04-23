@@ -4,7 +4,10 @@ let label = "Esperando...";
 
 
 function preload() {
-  classifier = ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/nCN3m3jr2/", {flipped:true});
+ //LMS Vocales
+  classifier = ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/VMFeZ_M4P/", {flipped:true});
+  //LMS Completo
+  //classifier = ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/nCN3m3jr2/", {flipped:true});
 }
 
 function gotResults(results) {
